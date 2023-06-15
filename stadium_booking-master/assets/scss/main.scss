@@ -1,0 +1,69 @@
+
+
+
+
+$color-primary:#007239;
+
+$primary-color	: #007239;
+$title-color	: #222222;
+$text-color		: #777777;
+
+$white			: #fff;
+$offwhite		: #f9f9ff;
+$black			: #222;
+
+
+// Theme Color
+$theme-color: #80bb01;
+$hover-color: #80bb01;
+$dark-hover-color: #5d8801;
+
+
+// Other Colors
+$primary:       #007239;
+$secondary:     #f9c322;
+$success:       #28a745;
+$info:          #17a2b8;
+$warning:       #ffc107;
+$danger:        #dc3545;
+$light:         #686868;
+
+@import url('https://fonts.googleapis.com/css2?family=Krub&display=swap');
+
+
+
+
+// USAGE
+
+$primary-font	: 'Krub', sans-serif;
+// body {
+//     font-size: 1.5em;
+// }
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//
+// Grid mixins
+//
+
+@import "bootstrap/mixins/breakpoints";
+
+
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/flexbox";
+@import "theme/reset";
+
+
+// Custom Scss 
+@import "theme/elements";
+@import "theme/header";
+@import "theme/home";
+@import "theme/about";
+@import "theme/packages";
+@import "theme/insurence";
+@import "theme/blog";
+@import "theme/contact";
+@import "theme/footer";

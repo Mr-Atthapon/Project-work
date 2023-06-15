@@ -1,0 +1,69 @@
+/*!
+ * Bootstrap v4.0.0-beta (https://getbootstrap.com)
+ * Copyright 2011-2017 The Bootstrap Authors
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ $color-primary:#007239;
+
+ $primary-color	: #007239;
+ $title-color	: #222222;
+ $text-color		: #777777;
+ 
+ $white			: #fff;
+ $offwhite		: #f9f9ff;
+ $black			: #222;
+ 
+ 
+ // Theme Color
+ $theme-color: #80bb01;
+ $hover-color: #80bb01;
+ $dark-hover-color: #5d8801;
+ 
+ 
+ // Other Colors
+ $primary:       #007239;
+ $secondary:     #f9c322;
+ $success:       #28a745;
+ $info:          #17a2b8;
+ $warning:       #ffc107;
+ $danger:        #dc3545;
+ $light:         #686868;
+
+
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/print";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
+@import "bootstrap/button-group";
+@import "bootstrap/input-group";
+@import "bootstrap/custom-forms";
+@import "bootstrap/nav";
+@import "bootstrap/navbar";
+@import "bootstrap/card";
+@import "bootstrap/breadcrumb";
+@import "bootstrap/pagination";
+@import "bootstrap/badge";
+@import "bootstrap/jumbotron";
+@import "bootstrap/alert";
+@import "bootstrap/progress";
+@import "bootstrap/media";
+@import "bootstrap/list-group";
+@import "bootstrap/close";
+@import "bootstrap/modal";
+@import "bootstrap/tooltip";
+@import "bootstrap/popover";
+@import "bootstrap/carousel";
+@import "bootstrap/utilities";
